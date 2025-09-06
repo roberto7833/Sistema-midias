@@ -1,8 +1,9 @@
 package midias.midia;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Midias {
+public class Midias implements Serializable {
     private String titulo;
     private String genero;
     private int anoLancamento;
