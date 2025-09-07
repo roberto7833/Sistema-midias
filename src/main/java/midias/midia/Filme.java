@@ -18,7 +18,7 @@ public class Filme extends Midias implements Serializable {
     }
     @Override
     public String toString(){
-        return super.toString()+"\nDuracao "+this.duracao;
+        return super.toString()+"\nDuracao: "+this.duracao;
     }
     @Override
     public boolean equals(Object o) {

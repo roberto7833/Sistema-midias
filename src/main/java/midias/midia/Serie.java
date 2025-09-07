@@ -19,7 +19,7 @@ public class Serie extends Midias implements Serializable {
     }
     @Override
     public String toString(){
-        return super.toString()+"\nEpisodios "+this.episodios;
+        return super.toString()+"\nEpisodios: "+this.episodios;
     }
     @Override
     public boolean equals(Object o) {

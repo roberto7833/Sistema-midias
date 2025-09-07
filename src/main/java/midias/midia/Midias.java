@@ -59,9 +59,9 @@ public class Midias implements Serializable {
         this.diretor = diretor;
     }
     public String toString(){
-        return "Filme de titulo "+this.titulo+"\nGenero "+this.genero+
-                "\nAno de lançamento "+this.anoLancamento+"\nDescrição "+this.descricao+
-                "\nElenco "+String.join(",", this.elenco)+"\nDiretor "+this.diretor;
+        return "Filme de titulo: "+this.titulo+"\nGenero: "+this.genero+
+                "\nAno de lançamento: "+this.anoLancamento+"\nDescrição: "+this.descricao+
+                "\nElenco: "+String.join(",", this.elenco)+"\nDiretor: "+this.diretor;
     }
     @Override
     public boolean equals(Object o) {
