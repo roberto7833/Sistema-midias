@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="gitHub:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gitHub_jar</output-path>
+    <root id="archive" name="gitHub.jar">
+      <element id="module-output" name="gitHub" />
+    </root>
+  </artifact>
+</component>

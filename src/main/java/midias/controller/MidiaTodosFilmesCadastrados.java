@@ -8,11 +8,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Collection;
 
-public class MidiaTodasFilmesCadastrados implements ActionListener {
+public class MidiaTodosFilmesCadastrados implements ActionListener {
     private SistemaMidias sistema;
     private JFrame janelaPrincipal;
 
-    public MidiaTodasFilmesCadastrados(SistemaMidias sistema, JFrame janela){
+    public MidiaTodosFilmesCadastrados(SistemaMidias sistema, JFrame janela){
         this.sistema = sistema;
         this.janelaPrincipal = janela;
     }

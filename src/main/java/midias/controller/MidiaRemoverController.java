@@ -24,7 +24,7 @@ public class MidiaRemoverController implements ActionListener {
         try {
             sistema.removerMidia(titulo);
             sistema.salvarDados();
-            JOptionPane.showMessageDialog(janelaPrincipal, "nidia removida com sucesso");
+            JOptionPane.showMessageDialog(janelaPrincipal, "midia removida com sucesso");
         }catch (MidiaInexistenteException | IOException ex){
             JOptionPane.showMessageDialog(janelaPrincipal, "midia não encontrada");
         }

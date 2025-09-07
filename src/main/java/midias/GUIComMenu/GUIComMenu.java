@@ -1,15 +1,12 @@
 package midias.GUIComMenu;
 
 import midias.controller.*;
-import midias.midia.GravadorDeDados;
-import midias.midia.Midias;
 import midias.sistema.ProgramaSistemaMidias;
 import midias.sistema.SistemaMidias;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
-import java.util.HashMap;
 
 public class GUIComMenu extends JFrame{
     JLabel linha1, linha2;
@@ -68,6 +65,9 @@ public class GUIComMenu extends JFrame{
         menuPesquisarAno.addActionListener(new MidiaSeachAtorController(midias, this));
         menuPesquisarAtor.addActionListener(new MidiaSeachAtorController(midias, this));
         menuPesquisarDiretor.addActionListener(new MidiaSeachDiretorController(midias, this));
+        menuFilmesCadastrados.addActionListener(new MidiaTodosFilmesCadastrados(midias, this));
+        menuSeriesCadastradas.addActionListener(new MidiaTodasSeriesCadastradas(midias, this));
+        menuTodasMidiasCadastradas.addActionListener(new MidiaTodasMidiasCadastradas(midias, this));
         menuRemoverMidia.addActionListener(new MidiaRemoverController(midias, this));
 
         barraDeMenu.add(menuCadastrar);
